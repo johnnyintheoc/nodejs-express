@@ -5,19 +5,19 @@
 <p>MySQL database is used in the Contact page.</p>
 
 <p>To Install:</p>
-<code>npm install express express-handlebars method-override body-parser mysql -S</code>
-<code>npm init</code>
+```npm install express express-handlebars method-override body-parser mysql -S```
+<br>```npm init```
 <br><br>
 
 <p>To Run:</p>
-<code>node server</code>
+```node server```
 <br><br>
 
 <p>MySQL table:</p>
-<code>
+```
 CREATE TABLE contacts(
-<br>id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-<br>first VARCHAR(100) NOT NULL,
-<br>last VARCHAR(100) NOT NULL,
-<br>email VARCHAR(100) NOT NULL)
-</code>
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+first VARCHAR(100) NOT NULL,
+last VARCHAR(100) NOT NULL,
+email VARCHAR(100) NOT NULL)
+```
