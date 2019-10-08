@@ -14,9 +14,8 @@
 <br><br>
 
 <p>MySQL table:</p>
-<code>CREATE TABLE contacts(
-\nid INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-\nfirst VARCHAR(100) NOT NULL,
-\nlast VARCHAR(100) NOT NULL,
-\nemail VARCHAR(100) NOT NULL)
-</code>
+<code>CREATE TABLE contacts(</code>
+<br><code>id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,</code>
+<br><code>first VARCHAR(100) NOT NULL,</code>
+<br><code>last VARCHAR(100) NOT NULL,</code>
+<br><code>email VARCHAR(100) NOT NULL)</code>
