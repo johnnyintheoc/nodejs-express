@@ -1,5 +1,5 @@
-# nodejs-express
-<p>Example of a NodeJS dynamic website that can serve data from a MySQL database.</p>
+# Node JS Express Web Server: Routing + MySQL
+<p>Example of a Node.js dynamic website that can serve data from a MySQL database.</p>
 <p>Packages used: express, express-handlebars, method-override, body-parser, mysql</p>
 <p>Pages: Home, About, Contact.</p>
 <p>MySQL database is used in the Contact page.</p>
