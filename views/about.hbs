@@ -1,0 +1,34 @@
+<section id="showcase">
+    <h1>About</h1>
+    <p>
+        This site was created using Node JS and uses Express for URL routing. 
+        This is a fully functional dynamic site that connects to a MySQL database and 
+        serves up custom pages.
+    </p>
+    <p>GitHub: https://github.com/johnnyintheoc/NodeJS-web-server</p>
+    <p>&nbsp;</p>
+
+    <h2>This site requires the following dependencies</h2>
+    <br>express
+    <br>express-handlebars
+    <br>method-override
+    <br>body-parser
+    <br>mysql
+    <p>&nbsp;</p>
+
+    <h2>Installation</h2>
+    <br>Make sure npm is installed and <code>npm init</code> with server.js as the initial file
+    <br><code>npm install express express-handlebars method-override body-parser mysql -S</code>
+    <br><code>node server.js</code>
+    <br>Server will run on localhost:5000
+    <p>&nbsp;</p>
+
+    <h2>MySQL table</h2>
+    <br><code>CREATE TABLE contacts(
+        <br>id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        <br>first VARCHAR(100) NOT NULL,
+        <br>last VARCHAR(100) NOT NULL,
+        <br>email VARCHAR(100) NOT NULL)
+    </code>
+    <p>&nbsp;</p>
+</section>

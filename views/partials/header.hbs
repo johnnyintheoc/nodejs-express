@@ -1,0 +1,13 @@
+<header>
+    <div class="container">
+        <div id="menu-icon"><a href="#">&ndash;<br>&ndash;<br>&ndash;</a></div>
+        <div id="branding"><img src="/img/johnny_profile.png" border="0" width="80" /></div>
+        <nav>
+            <ul>
+                <li><a href="/" {{#ifeq pg 'index'}} class="active" {{/ifeq}}>Home</a></li>
+                <li><a href="/about" {{#ifeq pg 'about'}} class="active" {{/ifeq}}>About</a></li>
+                <li><a href="/contact" {{#ifeq pg 'contact'}} class="active" {{/ifeq}}>Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
